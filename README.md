@@ -33,7 +33,7 @@ This is a simple product listing application built using Laravel for the backend
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/leomer21/simple-product-listing-laravel-react.git
+   git clone https://github.com/leomer21/simple-product-listing-laravel-react.git product-listing
    cd product-listing
    ```
 2. Install PHP dependencies:
