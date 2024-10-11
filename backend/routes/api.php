@@ -1,9 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductController;
 
-Route::get('/products', function () {
-    $response = Http::get(env('DUMMY_PRODUCT_LIST_ENDPOINT'));
-    return $response->json();
-});
+Route::resource('products', ProductController::class)->only(['index']);
