@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "antd";
 
-import ProductListing from "./ProductListing";
+import ProductListing from "./pages/ProductListing";
 
 const { Title } = Typography;
 
