@@ -46,6 +46,7 @@ This is a simple product listing application built using Laravel for the backend
     cp .env.example .env
     ```
 - Configure the .env file (database, API keys, etc.).
+
 4. Generate the application key:
     ```bash
     php artisan key:generate
@@ -58,6 +59,7 @@ This is a simple product listing application built using Laravel for the backend
     The Laravel backend will be running on http://localhost:8000.
 
 ### Frontend (React.js) Setup
+
 1. Navigate to the frontend folder:
 
     ```bash
@@ -80,9 +82,11 @@ This is a simple product listing application built using Laravel for the backend
     The frontend will be running on http://localhost:3000.
 
 ### CORS Configuration
+
 To allow communication between the backend and frontend, make sure to enable CORS in the Laravel application. You can adjust the CORS settings in config/cors.php.
 
 ### API Integration
+
 The Laravel backend uses the Dummy Products API to fetch products. The API endpoint is defined in the ```ProductController.php``` file, and the frontend fetches data from the backend endpoint: http://localhost:8000/api/products.
 
 ## Project Structure
@@ -110,12 +114,11 @@ product-listing/
 
 ### Testing
 - Ensure that both backend and frontend are running simultaneously.
-- Navigate to http://localhost:3000 to view the product listing page.
+- Navigate to http://localhost:5173 to view the product listing page.
 - Type in the search bar to filter products dynamically.
 
 ## Future Improvements
 - Debounced Search: Add debounce functionality to optimize search queries.
-- Pagination: Implement pagination for larger product sets.
 - Error Handling: Enhance error handling on both frontend and backend for better user experience.
 
 ## Contributing
@@ -123,9 +126,10 @@ product-listing/
 Feel free to open issues or submit pull requests for improvements or bug fixes. Contributions are welcome!
 
 ## License
+
 This project is licensed under the MIT License.
 
 ## Contact
 - Author: Leomer Giray Romero
 - Email: leomerromero42@gmail.com
-- LinkedIn: linkedin.com/in/leomer-romero
+- LinkedIn: https://linkedin.com/in/leomer-romero
