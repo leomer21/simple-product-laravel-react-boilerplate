@@ -35,8 +35,6 @@ const ProductListing: React.FC = () => {
           },
         }
       );
-      console.log(skip, limit);
-
       const newProducts = response.data.products;
 
       if (reset) {
